@@ -1,0 +1,7 @@
+#Don't copy ssh keys to external backup
+/.ssh
+#No need to backup cache files
+/.cache
+#no need to backup ,y backup logs
+**backup.log**
+/volumes/nextcloud/html/data
